@@ -11,4 +11,8 @@ module.exports = function (eleventyConfig) {
       include: "includes",
     },
   };
+
+  return {
+    pathPrefix: "/tldr/",
+  };
 };
