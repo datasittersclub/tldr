@@ -1,4 +1,4 @@
 {
-  "navLogo": "/assets/images/logo.png",
-  "navLinks": ["home", "about", "read"]
+  "navLogo": "/tldr/assets/images/logo.png",
+  "navLinks": ["home", "about"]
 }

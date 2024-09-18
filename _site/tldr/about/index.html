@@ -33,11 +33,11 @@
   </head>
 
   <body>
-  {% block navbar %}
+  
     <nav class="navbar navbar-expand-lg site-navigation">
       <div class="container">
         <a class="navbar-brand" href="/">
-          <img src="{{nav.navLogo}}" alt="nav-logo" />
+          <img src="/tldr/assets/images/logo.png" alt="nav-logo" />
         </a>
         <button
           class="navbar-toggler collapsed"
@@ -52,25 +52,61 @@
       
         <div class="collapse navbar-collapse" id="sitenavbar">
           <ul class="navbar-nav ml-auto main-nav">
-            {% for navLink in nav.navLinks %}
+            
             <li class="nav-item">
-              {% if navLink == "home" %}
-                <a class="nav-link" href="/tldr/">{{navLink | capitalize}}</a>
-              {% else %}
-                <a class="nav-link" href="/tldr/{{navLink}}">{{navLink | capitalize}}</a> 
-              {% endif %} 
+              
+                <a class="nav-link" href="/tldr/">Home</a>
+               
             </li>
-            {% endfor %}
+            
+            <li class="nav-item">
+              
+                <a class="nav-link" href="/tldr/about">About</a> 
+               
+            </li>
+            
             
           </ul>
         </div>
       </div>
     </nav>
-  {% endblock %}
+  
 
-  {% block content %}
-    {{content | safe}}
-  {% endblock %}
+  
+
+    <section class="site-blog-header">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h1></h1>
+            <p>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-blog">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-12">
+            <div class="site-blog-pagination">
+              <nav>
+                <ul class="pagination">
+                  
+                  
+                  
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
 
   
 

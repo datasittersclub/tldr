@@ -5,14 +5,11 @@ module.exports = function (eleventyConfig) {
     passthroughFileCopy: true,
     markdownTemplateEngine: "njk",
     templateFormats: ["html", "njk", "md"],
+    pathPrefix: "/tldr/",
     dir: {
       input: "src",
       output: "_site",
       include: "includes",
     },
-  };
-
-  return {
-    pathPrefix: "/tldr/",
   };
 };
