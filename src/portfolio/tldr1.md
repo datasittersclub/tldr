@@ -56,7 +56,7 @@ First, let's get you doing digital humanities!
 
 3.  Copy and paste this [text of Douglass's speech](https://docs.google.com/document/d/1-9Le4PfrXJyBpAcK9jGfe_T5RZEPQH_H9za6s7aAphg/edit) into Voyant Tools.
 
-![Pasting the text of the speech into the Voyant window](/tldr/assets/images/tldr1_voyant-paste.jpg)
+![Pasting the text of the speech into the Voyant window](/tldr/assets/images/voyant-paste.png)
 
 4. To find the most meaningful words in the text, you’ll want to filter out the “stopwords” (think: articles and prepositions). To the right of “Cirrus” click on the option button (it looks like a switch). Voyant will automatically detect the language of your text and select a stopword list for you. (You can also edit the list by clicking “Edit List” if you want to filter out additional words.) 
 
