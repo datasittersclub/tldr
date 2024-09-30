@@ -3,7 +3,7 @@ subTitle: "Getting started"
 title: "DH Curious?"
 img: "/tldr/assets/images/covers/tldr1.jpg"
 linkText: "view project"
-permalink: "/books/tldr1/"
+permalink: "/tldr/books/tldr1/"
 featureImg1: "/tldr/assets/images/covers/tldr1.jpg"
 featureImg2: ""
 ---
@@ -12,7 +12,7 @@ Our main series (DSC) is aimed at people who already know they want to use digit
 
 Welcome to our new spinoff series: DSC’s Little TL;DR (short for “too long; didn’t read”), where we offer key ideas and takeaways for people interested in digital humanities but not sure if it’s for them. We’re not here to convert, just to help — all in 1,500 words or less! 
 
-## What (and Why!) Is Digital Humanities? 
+### What (and Why!) Is Digital Humanities? 
 
 When we figure it out, we'll let you know. Ask all 6 of us and you'll probably get as many answers.
 
@@ -24,7 +24,7 @@ What links the two is getting our hands into computational or digital technologi
 
 Digital humanities is incredibly useful in two realms: research and teaching.
 
-## Research
+### Research
 
 Given our expansive definition of digital humanities, its applications for your research are vast. So vast, in fact, it may be hard to know what to begin. For the purposes of introduction, we can divide digital humanities research into two (at times, overlapping) categories: exploring information and displaying information.
 
@@ -34,7 +34,7 @@ Displaying information means using digital or computational tools to share the r
 
 Really, these two categories overlap because once you start engaging with technology --- whether for exploration or display --- you may find that the kinds of questions you are asking about your humanities content changes. Using a quantitative analysis tool like [Voyant](https://voyant-tools.org/) will give you word clouds that both display your data and may generate new avenues of inquiry on your topic. Likewise, engaging in digital cultural mapping with a tool like [Google My Maps](https://www.google.com/maps/d/u/0/) both displays your data set and can help you find new questions that the display of information generates. Engaging with your primary material in digital formats can, at its best, be generative. For instance, having to figure out which database fields work best for storing information about a collection of artworks might lead you to notice things about those artworks that you hadn't before.
 
-## Teaching
+### Teaching
 
 Even if you don't see a need for digital humanities in your research, there are super easy ways and tools that already exist (called "out-of-the-box tools" --- no coding or advanced technological skills required!) that you can add as a classroom activity.
 
@@ -46,9 +46,9 @@ We have some resources after the next section that will help you get a sense of 
 
 First, let's get you doing digital humanities!
 
-## Try This at Home! (Or with your students!)
+### Try This at Home! (Or with your students!)
 
-### Simple Quantitative Textual Analysis with Voyant
+#### Simple Quantitative Textual Analysis with Voyant
 
 1.  Read Frederick Douglass' ["What to the Slave is the Fourth of July?"](https://www.blackpast.org/african-american-history/speeches-african-american-history/1852-frederick-douglass-what-slave-fourth-july/) (If you don't feel like reading it, skip to Step 3, create your visualization, and then ask yourself what themes emerge in the word cloud!)
 
@@ -68,7 +68,7 @@ You’re doing quantitative textual analysis!
 
 Another great way to use Voyant is to pick two texts from different political perspectives and compare their most frequent words. Christina Acosta at California State University Stanislaus has had success with using Hitler’s *Mein Kampf* and Audre Lorde’s *Sister Outsider*. Roopsi has used political speeches by opposing candidates during election seasons in the U.S. 
 
-### Easy Mapping with Google Maps
+#### Easy Mapping with Google Maps
 
 1.  Get yourself some data! Maybe it's places in a novel that takes place in different locations, locations of Spanish colonies, or museums with stolen colonial plunder. Just five places or locations are fine for our purposes.
 
@@ -98,11 +98,11 @@ Even just with Google My Maps, you can put all kinds of information on maps. If 
 
 See how easy it is to get started? Congratulations — you’re doing digital humanities already! 
 
-## Help! What Do I Do Next?
+### Help! What Do I Do Next?
 
 Ready to see more of what might be possible with digital humanities? Here are some places to look! 
 
-### Resources 
+#### Resources 
 
 [*Reviews in Digital Humanities*](https://reviewsindh.pubpub.org) (check out the project registry to find projects in your areas of interest, edited by Jennifer Guiliano and Roopika Risam)
 
@@ -116,13 +116,13 @@ Ready to see more of what might be possible with digital humanities? Here are so
 
 ["Postcolonial Digital Pedagogy"](https://drive.google.com/file/d/1MGHkLcKL_Rz2GX6mkNfE4tm97xBDBWnH/view?usp=sharing) (check out this chapter by Roopika Risam on small and larger scale ways to reach with digital humanities --- and why)
 
-### Some Cool Projects
+#### Some Cool Projects
 
 * [Beyond the Ant Brotherhood: A Visualization of Tolstoy's Intellectual World](https://www.colloquy.us:8443/Tolstoy/#home)
 * [Digital Mitford: The Mary Russell Mitford Archive](https://digitalmitford.org/)
 * [Mapping Inequality: Redlining in New Deal American](https://dsl.richmond.edu/panorama/redlining/#loc=5/39.1/-94.58)
 * [Shakespeare Drama Corpus](https://dracor.org/shake) (part of [DraCor](http://dracor.org), which is a multilingual DH drama corpus)
 
-## And Remember...
+### And Remember...
 
 The great joy in the fact that digital humanities is a broad category means that as long as you’re engaging in hand-on making, experimentation, research and/or teaching that brings together the humanities and technology, you’re doing digital humanities. 
