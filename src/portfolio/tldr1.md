@@ -3,8 +3,8 @@ subTitle: "Getting started"
 title: "DH Curious?"
 img: "/tldr/assets/images/covers/tldr1.jpg"
 linkText: "view project"
-permalink: "/tldr/books/tldr1/"
-featureImg1: "/tldr/assets/images/covers/tldr1.jpg"
+permalink: "/books/tldr1/"
+featureImg1: "/assets/images/covers/tldr1.jpg"
 featureImg2: ""
 ---
 
