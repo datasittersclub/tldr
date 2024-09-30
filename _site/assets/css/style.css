@@ -109,11 +109,11 @@ h6 {
 }
 
 .btn-primary {
-  background: #da92ff;
+  background: #f9cfdf;
   color: #000000;
 }
 .btn-primary:hover {
-  background: #ff99ff;
+  background: #fff799;
 }
 
 .btn-primary span {
@@ -121,7 +121,7 @@ h6 {
 }
 
 .btn-secondary {
-  background: #ff99ff;
+  background: #bde8e8;
   color: #000000;
 }
 .btn-secondary span {
@@ -129,7 +129,7 @@ h6 {
 }
 
 .btn-secondary:hover {
-  background: #da92ff;
+  background: #fff799;
 }
 
 body {
@@ -900,7 +900,6 @@ textarea.form-control {
   color: #fff;
   font-weight: 400;
   font-size: 25px;
-  line-height: 60px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -1172,6 +1171,6 @@ textarea.form-control {
 /*# sourceMappingURL=maps/style.css.map */
 
 .site-hero-content h6 strong {
-  background-color: #da92ff;
+  background-color: #fff799;
   padding:10px;
 }

@@ -1,0 +1,25 @@
+{% extends "base.njk" %}
+
+{% block content %}
+    <section class="site-about-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="site-about-wrapper">
+              <div class="site-about-company">
+                <h1>{{title}}</h1>
+                {{blurb}}
+              </div>
+              <div class="site-about-description">
+                <p>
+                {{content | safe }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+{% endblock %}

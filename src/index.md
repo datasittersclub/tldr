@@ -9,13 +9,6 @@ hero:
     text: "Read the TL;DR"
     link: "#project"
   connectBtn:
-    text: "Read the novels"
-    link: "https://datasittersclub.github.io/site/books"
-
-portfolio:
-  subTitle: "The tl;dr"
-  title: "Just enough DH to get started."
-  seeAllbtn:
-    link: "books"
-    text: "See all the books"
+    text: "About DSC TL;DR"
+    link: "about"
 ---
