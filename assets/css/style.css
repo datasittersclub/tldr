@@ -1181,7 +1181,6 @@ textarea.form-control {
   width:100%;
 }
 
-.booktitle: {
-  display:block;
-  width: 100%;
+.bookcover {
+  width:40%;
 }
