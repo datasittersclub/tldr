@@ -28,7 +28,7 @@ Digital humanities is incredibly useful in two realms: research and teaching.
 
 Given our expansive definition of digital humanities, its applications for your research are vast. So vast, in fact, it may be hard to know what to begin. For the purposes of introduction, we can divide digital humanities research into two (at times, overlapping) categories: exploring information and displaying information.
 
-Exploring information means using analytical approaches that require the use of computers, or that would be very difficult to carry out without them. For example, you might <https://datasittersclub.github.io/site/dsc6.html> to find patterns in words or phrases within a corpus (a collection of texts) that would be too large for a single human reader to read. Or you might plot data from a text or about different texts on a map to get a sense of the geographical dimensions of your data.
+Exploring information means using analytical approaches that require the use of computers, or that would be very difficult to carry out without them. For example, you might [use the Voyant tool suite](https://datasittersclub.github.io/site/dsc6.html) to find patterns in words or phrases within a corpus (a collection of texts) that would be too large for a single human reader to read. Or you might plot data from a text or about different texts on a map to get a sense of the geographical dimensions of your data.
 
 Displaying information means using digital or computational tools to share the results of your research. This might mean putting together a digital exhibit on a website, with an [archival content management system like Omeka](https://programminghistorian.org/en/lessons/up-and-running-with-omeka) or using a workflow like [CollectionBuilder](https://collectionbuilder.github.io/). Or you might create a [Scalar](https://scalar.usc.edu/) book to share maps, multimedia materials, and data visualizations from your research. Or creating a digital edition that includes [information about characters, places, and other elements of a text that are encoded by means of XML tags](https://datasittersclub.github.io/site/dsc5.html) into the text. These displays of information could be standalone digital projects but can also be a digital companion to an article or a book.
 
@@ -66,7 +66,7 @@ First, let's get you doing digital humanities!
 
 You’re doing quantitative textual analysis!
 
-Another great way to use Voyant is to pick two texts from different political perspectives and compare their most frequent words. Christina Acosta at California State University Stanislaus has had success with using Hitler’s *Mein Kampf* and Audre Lorde’s *Sister Outsider*. Roopsi has used political speeches by opposing candidates during election seasons in the U.S. 
+Another great way to use Voyant is to pick two texts from different political perspectives and compare their most frequent words. Christina Acosta at UC San Diego has had success with using Hitler’s *Mein Kampf* and Audre Lorde’s *Sister Outsider*. Roopsi has used political speeches by opposing candidates during election seasons in the U.S. 
 
 #### Easy Mapping with Google Maps
 
