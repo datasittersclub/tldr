@@ -583,7 +583,7 @@ textarea.form-control {
   color: #fff;
 }
 .site-project-single-section {
-  padding: 250px 0 100px;
+  padding: 25px 0 100px;
 }
 @media (max-width: 767px) {
   .site-project-single-section {
@@ -599,9 +599,11 @@ textarea.form-control {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 30px;
+  margin-left:20px;
+  float:right;
 }
 .site-project-single-image img {
-  width: 48%;
+  width: 64%;
 }
 .site-project-single-image img:nth-child(2n) {
   margin-left: auto;
@@ -1173,4 +1175,8 @@ textarea.form-control {
 .site-hero-content h6 strong {
   background-color: #fff799;
   padding:10px;
+}
+
+.site-project-single-description p img {
+  width:100%;
 }
