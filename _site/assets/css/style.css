@@ -1180,3 +1180,7 @@ textarea.form-control {
 .site-project-single-description p img {
   width:100%;
 }
+
+.bookcover {
+  width:40%;
+}
