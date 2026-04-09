@@ -41,21 +41,21 @@
     {% endif %}
 
     <!-- Slick Carousel -->
-    <link rel="stylesheet" href="/tldr/assets/vendor/slick/slick.css" />
-    <link rel="stylesheet" href="/tldr/assets/vendor/slick/slick-theme.css" />
+    <link rel="stylesheet" href="{{ '/assets/vendor/slick/slick.css' | url }}" />
+    <link rel="stylesheet" href="{{ '/assets/vendor/slick/slick-theme.css' | url }}" />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
-      href="/tldr/assets/vendor/font-awesome/css/font-awesome.min.css"
+      href="{{ '/assets/vendor/font-awesome/css/font-awesome.min.css' | url }}"
     />
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="/tldr/assets/vendor/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{ '/assets/vendor/bootstrap/bootstrap.min.css' | url }}" />
     <!-- Stylesheets -->
-    <link href="/tldr/assets/css/style.css" rel="stylesheet" />
+    <link href="{{ '/assets/css/style.css' | url }}" rel="stylesheet" />
 
     <!--Favicon-->
-    <link rel="shortcut icon" href="/tldr/assets/images/favIcon.png" type="image/x-icon" />
-    <link rel="icon" href="/tldr/assets/images/favIcon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{ '/assets/images/favIcon.png' | url }}" type="image/x-icon" />
+    <link rel="icon" href="{{ '/assets/images/favIcon.png' | url }}" type="image/x-icon" />
   </head>
 
   <body{% block bodyAttrs %}{% endblock %}>
@@ -79,10 +79,10 @@
         <div class="collapse navbar-collapse" id="sitenavbar">
           <ul class="navbar-nav ml-auto main-nav">
             <li class="nav-item">
-                <a class="nav-link" href="/tldr/">Home</a>
+                <a class="nav-link" href="{{ '/' | url }}">Home</a>
             </li>
                         <li class="nav-item">
-                <a class="nav-link" href="/tldr/about/">About</a> 
+                <a class="nav-link" href="{{ '/about/' | url }}">About</a> 
             </li>
                             
             
@@ -100,9 +100,9 @@
 
   
     <!-- <script src="js/vendor.js"></script> -->
-    <script src="/tldr/assets/vendor/jQuery/jquery.min.js"></script>
-    <script src="/tldr/assets/vendor/bootstrap/bootstrap.min.js"></script>
-    <script src="/tldr/assets/js/script.js"></script>
+    <script src="{{ '/assets/vendor/jQuery/jquery.min.js' | url }}"></script>
+    <script src="{{ '/assets/vendor/bootstrap/bootstrap.min.js' | url }}"></script>
+    <script src="{{ '/assets/js/script.js' | url }}"></script>
   </body>
 </html>
 
