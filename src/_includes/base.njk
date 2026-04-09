@@ -14,16 +14,27 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
 
+    {% set siteBaseUrl = "https://datasittersclub.github.io" %}
+    {% set canonicalUrl = siteBaseUrl + (page.url | url) %}
+
+    {% if featureImg1 %}
+      {% set previewImageUrl = featureImg1 %}
+      {% if featureImg1[0] == "/" %}
+        {% set previewImageUrl = siteBaseUrl + featureImg1 %}
+      {% endif %}
+    {% endif %}
+
     <meta property="og:title" content="{{ title | default('Data-Sitters tl;dr') }}" />
     <meta property="og:description" content="{{ subTitle | default('Just enough digital humanities to get started.') }}" />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ canonicalUrl }}" />
     <meta name="twitter:card" content="{{ featureImg1 and 'summary_large_image' or 'summary' }}" />
     <meta name="twitter:title" content="{{ title | default('Data-Sitters tl;dr') }}" />
     <meta name="twitter:description" content="{{ subTitle | default('Just enough digital humanities to get started.') }}" />
 
     {% if featureImg1 %}
-    <meta property="og:image" content="{{ featureImg1 }}" />
-    <meta name="twitter:image" content="{{ featureImg1 }}" />
+    <meta property="og:image" content="{{ previewImageUrl }}" />
+    <meta name="twitter:image" content="{{ previewImageUrl }}" />
     {% endif %}
 
     <!-- Slick Carousel -->
