@@ -26,7 +26,7 @@
               
               <div class="site-project-single-action d-flex justify-content-between">
                 {% if previousPost%}
-                <a href="{{previousPost.url}}">
+                <a href="{{previousPost.url | url}}">
                   <img class="rev" src="{{ '/assets/images/to-top.svg' | url }}" alt="next project">
                   <span class="link-area">
                     <span data-text="{{previousPost.data.title}}">
@@ -36,7 +36,7 @@
                 </a>
                 {% endif %}
                 {% if nextPost %}
-                <a href="{{nextPost.url}}">
+                <a href="{{nextPost.url | url}}">
                   <span class="link-area">
                     <span data-text="{{nextPost.data.title}}">
                       Next Project
