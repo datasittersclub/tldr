@@ -16,10 +16,11 @@
     {% set siteBaseUrl = "https://datasittersclub.github.io" %}
     {% set canonicalUrl = siteBaseUrl + (page.url | url) %}
 
-    {% if featureImg1 %}
-      {% set previewImageUrl = featureImg1 %}
-      {% if featureImg1[0] == "/" %}
-        {% set previewImageUrl = siteBaseUrl + featureImg1 %}
+    {% set socialImage = ogImg or featureImg1 %}
+    {% if socialImage %}
+      {% set previewImageUrl = socialImage %}
+      {% if socialImage[0] == "/" %}
+        {% set previewImageUrl = siteBaseUrl + socialImage %}
       {% endif %}
       {% set previewImageTagUrl = previewImageUrl ~ "?v=20260409-2" %}
     {% endif %}
@@ -29,14 +30,16 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ canonicalUrl }}" />
     <link rel="canonical" href="{{ canonicalUrl }}" />
-    <meta name="twitter:card" content="{{ featureImg1 and 'summary_large_image' or 'summary' }}" />
+    <meta name="twitter:card" content="{{ socialImage and 'summary_large_image' or 'summary' }}" />
     <meta name="twitter:title" content="{{ title | default('Data-Sitters tl;dr') }}" />
     <meta name="twitter:description" content="{{ subTitle | default('Just enough digital humanities to get started.') }}" />
 
-    {% if featureImg1 %}
+    {% if socialImage %}
     <meta property="og:image" content="{{ previewImageTagUrl }}" />
     <meta property="og:image:secure_url" content="{{ previewImageTagUrl }}" />
     <meta property="og:image:type" content="image/jpeg" />
+    {% if ogImgWidth %}<meta property="og:image:width" content="{{ ogImgWidth }}" />{% endif %}
+    {% if ogImgHeight %}<meta property="og:image:height" content="{{ ogImgHeight }}" />{% endif %}
     <meta name="twitter:image" content="{{ previewImageTagUrl }}" />
     {% endif %}
 

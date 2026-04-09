@@ -5,6 +5,9 @@ img: "/tldr/assets/images/covers/tldr1.jpg"
 linkText: "view project"
 permalink: "/books/tldr1/"
 featureImg1: "/tldr/assets/images/covers/tldr1.jpg"
+ogImg: "/tldr/assets/images/covers/tldr1-social.jpg"
+ogImgWidth: 1200
+ogImgHeight: 630
 bgcolor: "#fff799"
 ---
 
