@@ -1,0 +1,83 @@
+---
+subTitle: "You need 'stuff' to do DH"
+title: "Forming Your Corpus"
+img: "/tldr/assets/images/covers/tldr2.jpg"
+linkText: "view project"
+permalink: "/books/tldr2/"
+featureImg1: "/tldr/assets/images/covers/tldr2.jpg"
+bgcolor: "#ccffcc"
+---
+
+by Lee Skallerup Bessette & the Data-Sitters Club
+
+April 9, 2026
+
+*Our main series (DSC) is aimed at people who already know they want to use digital humanities tools. But what if you don’t know if digital humanities is right for you?*
+
+*Welcome to our spinoff series: Data-Sitters Little TL;DR (short for “too long; didn’t read”), where we offer key ideas and takeaways for people interested in digital humanities but not sure if it’s for them. We’re not here to convert, just to help — all in 1,500 words or less!*
+
+## What is a Corpus?
+
+If you want to start doing DH, well, you need something large enough to "do" DH to. For us at the Data-Sitters Club, our corpus is The Baby-Sitters Club books and various adaptations and translations. Your corpus is the collection of data you are looking to analyze, be it text, images, location information...In the context of DH, yes, text is data!
+
+If it was as easy as just collecting and digitizing stuff, then we wouldn't need to have this book! Even with our very clear parameters, building our corpus was far from a straightforward affair. Here are the elements in building a corpus that you need to consider in order to have your DH project be as successful as possible.
+
+(You can also download a version of this TL; DR [as a zine](https://datasittersclub.github.io/site/_downloads/410888d81290252dc9edcd11717fae8e/dsc22_zines_zine.pdf)!)
+
+## Is it Legal?
+
+Fair use isn't just a magic wand you can wave so that you can do whatever you want with your data (remember, your corpus of text(s) is data!). Quinn looks at fair use  in [DSC #7: The DSC and Mean Copyright Law](https://datasittersclub.github.io/site/dsc7.html). Here's a bit of their conversation with law professor Matthew Sag:
+
+>The list of examples that can count as "fair use" is, crucially, not finite. The Copyright Act lists a few illustrative fair uses: criticism, comment, news reporting, teaching, scholarship, and research. But the good news is that the list is not closed---things that don't fit neatly into those categories can still qualify as fair use. What you have to understand is that even when the law starts off as a vague standard, rules and principles emerge from the cases that make it much clearer over time... there are many many uses that are clearly fair use, we just don't talk about them much because they are so uncontroversial."
+
+All of this is complicated by the Digital Millennium Copyright Act, which dictates what you can do with already-digital versions of potential items in the corpus (like ebooks or DVDs). In [DSC #14: Hello, DMCA Exemption](https://datasittersclub.github.io/site/dsc14.html), Quinn examines how the DMCA has changed for the better, and what restrictions are still present, limiting the work we can do.
+
+Tl;dr: if you scan and OCR paper books (see [DSC #2: Katia and the Phantom Corpus](https://datasittersclub.github.io/site/dsc2.html)), don't post the full text online, and use them for research (even if you're training AI models) and/or teaching, you're solidly covered under fair use in the US. 
+
+## What Should Be In My Corpus?
+
+Great question! And of course the answer is, it depends! In [DSC #19: Shelley and the Bad Corpus](https://doi.org/10.25740/xb445sg6771), Quinn and Shelley Staples discuss this very issue!
+
+The takeaway? Corpus construction is making an argument. You need to think about your goals and the claims you want to be able to make. If you're not sure whether to include some texts or not... read them with your own eyeballs! The better you understand the corpus, the better you can make choices about your research question.
+
+## What About Using an Already-Ready Corpus?
+
+Well, sure you could do that, and lots of people do, but you have to think about how that corpus was made and not only what is included, but also what is excluded, as Quinn and Cadence Cordell find out in [DSC #18: The Data-Sitters' HathiTrust Mistake](https://datasittersclub.github.io/site/dsc18.html).
+
+>The points Roopsi makes in her book New Digital Worlds about the gaping holes, silences, and omissions in colonial archives shaped by the priorities and interests of empires also apply to HathiTrust. 17 million items feels so immense it's tempting to think it's got to be comprehensive. But you can't forget about how it came to be. HathiTrust is the recipient of data from the Google Books project, which scanned millions of books held by libraries at (mostly) US-based research institutions, from other mass-digitization projects like those of the Internet Archive (still active) and Microsoft (shuttered in 2008), as well as libraries' own local digitization workflows. 
+
+## What About Archives?
+
+Some of the materials for your corpus might be located in libraries or other archives. Cadence helps guide you through archival research in [DSC #17: Cadence's Archives Mystery](https://datasittersclub.github.io/site/dsc17.html). Her most valuable piece of advice?
+
+> Reach out to the archivists on staff and talk to them about what you're researching and what specific collections you want to look at --- they are the experts on the collections, and you shouldn't overlook them as resources.
+
+## What is Metadata and Why Should I Care?
+
+Once you have settled on what items you will be including in your corpus, you need to think about metadata, or information about the individual item. That usually includes supposedly "obvious" information such as author/creator, date and place of publication, format, language, etc. But it can also be information relevant to your research questions: translator, genre, setting location... it really could be anything that you want to be able to track across the corpus.
+
+Quinn and I highlight the challenges in getting work done when there is missing metadata in [DSC Multilingual Mystery #1: Lee and the Missing Metadata](https://datasittersclub.github.io/site/dscm1.html), and how a resource like WorldCat can be useful in starting to collect metadata but is often woefully incomplete.
+
+And then the metadata is usually a disaster, so you have to "clean" it in order to make sure that it is in a common and usable format. In [DSC Multilingual Mystery #3: Quinn and Lee Clean Up Ghost Cat Data-Hairballs](https://datasittersclub.github.io/site/dscm3.html), I was able to find much more metadata information, but the format of said metadata was...not great.
+
+Save yourself some trouble in the long run and make friends with the metadata librarian on your campus. 
+
+## Ok, Now Let's Build This Corpus!
+
+You know what you are allowed to do, you have thought carefully about the composition of your corpus, you have collected the materials and have clean, well-thought out metadata. You are ready to build the corpus!
+
+First, finish building the corpus by scanning in anything that isn't already digitized and cleaning it all up to be machine readable.In [DSC #2: Katia and the Phantom Corpus](https://datasittersclub.github.io/site/dsc2.html), Quinn provides some helpful advice on scanning and OCR, but technology has moved on! Here's some updated tips:
+
+**Get good-quality images**. The phones of 2026 are fine. You should still try to get the book as flat as possible. Make sure there aren't shadows coming in from the gutter that obscure the letters. Make sure your images are crisp: if it's blurry, retake it. If you're having problems with the OCR (optical character recognition, which transforms an image of text to computer-readable text), you can experiment with "scanner" apps on your phone that try to de-skew the text when it's on the curved surface of an open book, but the default camera app on a recent phone is generally fine.
+
+**Use actual OCR software**. OCR software generates a computationally-readable version of the text in an image. When text is hard to read in the image, what you get is garbage output. *This is good, actually*: it's an immediately-recognizable alert that you should go back and check it manually if you want high accuracy. If you ask an AI model to do this, you'll get back a version that looks flawless... but where the model just made up stuff that sounds good when it couldn't read the text. And the worst part is, **there's no easy way for you to tell what's real**. So embrace the glitches and garbage! Adobe Acrobat is pretty good, but at the Stanford Literary Lab, we still use classic ABBYY FineReader. And there's a lot of machine learning models for OCR (that aren't hooked up to generative AI nonsense) if you've got access to a coder friend.
+
+## What should I have at the end?
+
+When you're done, you should have a folder of plain text (.txt) files, and a spreadsheet (.csv) of all the metadata. Your .txt files should be named without spaces in the filename, and some standard convention. Quinn uses authorlastname_book-title.txt (underscore separating author last name from the title, and words in book title separated by hyphens, everything lowercase, no accent marks or non-Latin characters). If year is more important than title, you can stick that in instead, like: 1900-authorlastname.txt. If you're putting in full dates, though, use yyyy-mm-dd as your format. Seriously.
+
+There should be a column in your spreadsheet with the filename of each .txt file in the folder, along with whatever other information you've decided is important. The folder, and the spreadsheet: it all starts from there. Depending on your workflow, you can put a copy of that folder and spreadsheet in Google Drive, Dropbox, or another cloud location, and just share it individually with your project collaborators. Don't make it world-viewable, to stay totally in the clear with fair use.
+
+## Congratulations! You Have a Corpus!
+
+What now? Well, there are 26+ Data-Sitter Club books to help you figure that out! Or, you can check out the first [Data-Sitters Little TL; DR - DH Curious?](https://datasittersclub.github.io/tldr/books/tldr1/)

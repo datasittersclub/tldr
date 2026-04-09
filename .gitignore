@@ -1,2 +1,5 @@
 node_modules
 .DS_Store
+
+# Keep the generated-site folder, but ignore its generated contents.
+_site/*

@@ -5,7 +5,7 @@ img: "/tldr/assets/images/covers/tldr1.jpg"
 linkText: "view project"
 permalink: "/books/tldr1/"
 featureImg1: "/tldr/assets/images/covers/tldr1.jpg"
-featureImg2: ""
+bgcolor: "#fff799"
 ---
 
 by Roopika Risam, Katherine Bowers, Maria Sachiko Cecire, and Anouk Lang

@@ -1,5 +1,7 @@
 {% extends "base.njk" %}
 
+{% block bodyAttrs %} style="background-color: {{ bgcolor | default('#ffffff') }};"{% endblock %}
+
 {% block content %}
 
     <section class="site-project-single-section">
