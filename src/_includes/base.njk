@@ -21,6 +21,7 @@
       {% if featureImg1[0] == "/" %}
         {% set previewImageUrl = siteBaseUrl + featureImg1 %}
       {% endif %}
+      {% set previewImageTagUrl = previewImageUrl ~ "?v=20260409-2" %}
     {% endif %}
 
     <meta property="og:title" content="{{ title | default('Data-Sitters tl;dr') }}" />
@@ -33,10 +34,10 @@
     <meta name="twitter:description" content="{{ subTitle | default('Just enough digital humanities to get started.') }}" />
 
     {% if featureImg1 %}
-    <meta property="og:image" content="{{ previewImageUrl }}" />
-    <meta property="og:image:secure_url" content="{{ previewImageUrl }}" />
+    <meta property="og:image" content="{{ previewImageTagUrl }}" />
+    <meta property="og:image:secure_url" content="{{ previewImageTagUrl }}" />
     <meta property="og:image:type" content="image/jpeg" />
-    <meta name="twitter:image" content="{{ previewImageUrl }}" />
+    <meta name="twitter:image" content="{{ previewImageTagUrl }}" />
     {% endif %}
 
     <!-- Slick Carousel -->
