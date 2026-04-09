@@ -27,12 +27,15 @@
     <meta property="og:description" content="{{ subTitle | default('Just enough digital humanities to get started.') }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ canonicalUrl }}" />
+    <link rel="canonical" href="{{ canonicalUrl }}" />
     <meta name="twitter:card" content="{{ featureImg1 and 'summary_large_image' or 'summary' }}" />
     <meta name="twitter:title" content="{{ title | default('Data-Sitters tl;dr') }}" />
     <meta name="twitter:description" content="{{ subTitle | default('Just enough digital humanities to get started.') }}" />
 
     {% if featureImg1 %}
     <meta property="og:image" content="{{ previewImageUrl }}" />
+    <meta property="og:image:secure_url" content="{{ previewImageUrl }}" />
+    <meta property="og:image:type" content="image/jpeg" />
     <meta name="twitter:image" content="{{ previewImageUrl }}" />
     {% endif %}
 
