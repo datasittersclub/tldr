@@ -11,4 +11,5 @@ hero:
   connectBtn:
     text: "About DSC TL;DR"
     link: "about"
+featureImg1: "/tldr/assets/images/dsc-tldr.jpg"
 ---

@@ -14,6 +14,18 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
 
+    <meta property="og:title" content="{{ title | default('Data-Sitters tl;dr') }}" />
+    <meta property="og:description" content="{{ subTitle | default('Just enough digital humanities to get started.') }}" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="{{ featureImg1 and 'summary_large_image' or 'summary' }}" />
+    <meta name="twitter:title" content="{{ title | default('Data-Sitters tl;dr') }}" />
+    <meta name="twitter:description" content="{{ subTitle | default('Just enough digital humanities to get started.') }}" />
+
+    {% if featureImg1 %}
+    <meta property="og:image" content="{{ featureImg1 }}" />
+    <meta name="twitter:image" content="{{ featureImg1 }}" />
+    {% endif %}
+
     <!-- Slick Carousel -->
     <link rel="stylesheet" href="/tldr/assets/vendor/slick/slick.css" />
     <link rel="stylesheet" href="/tldr/assets/vendor/slick/slick-theme.css" />
