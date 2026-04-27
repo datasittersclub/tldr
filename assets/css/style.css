@@ -616,8 +616,17 @@ textarea.form-control {
 .site-project-single-description {
   margin-bottom: 50px;
 }
+@media (min-width: 992px) {
+  .project-single-main {
+    max-width: calc(100% - 150px);
+  }
+}
 .site-project-single-description p {
   margin-bottom: 30px;
+}
+.site-project-single-description figcaption,
+.site-blog-details figcaption {
+  font-style: italic;
 }
 .site-project-single-action a {
   position: relative;
