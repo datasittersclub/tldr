@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <title>Data-Sitters tl;dr</title>
+    <meta name="generator" content="Eleventy">
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    
+    
+
+    
+    
+      
+      
+        
+      
+      
+    
+
+    <meta property="og:title" content="Navigating the Terminal for the First Time" />
+    <meta property="og:description" content="Yikes!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://datasittersclub.github.io/tldr/books/tldr4/" />
+    <link rel="canonical" href="https://datasittersclub.github.io/tldr/books/tldr4/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Navigating the Terminal for the First Time" />
+    <meta name="twitter:description" content="Yikes!" />
+
+    
+    <meta property="og:image" content="https://datasittersclub.github.io/tldr/assets/images/covers/tldr4.jpg?v=20260409-2" />
+    <meta property="og:image:secure_url" content="https://datasittersclub.github.io/tldr/assets/images/covers/tldr4.jpg?v=20260409-2" />
+    <meta property="og:image:type" content="image/jpeg" />
+    
+    
+    <meta name="twitter:image" content="https://datasittersclub.github.io/tldr/assets/images/covers/tldr4.jpg?v=20260409-2" />
+    
+
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="/tldr/assets/vendor/slick/slick.css" />
+    <link rel="stylesheet" href="/tldr/assets/vendor/slick/slick-theme.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="/tldr/assets/vendor/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/tldr/assets/vendor/bootstrap/bootstrap.min.css" />
+    <!-- Stylesheets -->
+    <link href="/tldr/assets/css/style.css" rel="stylesheet" />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/tldr/assets/images/favIcon.png" type="image/x-icon" />
+    <link rel="icon" href="/tldr/assets/images/favIcon.png" type="image/x-icon" />
+ <script defer src="https://webstats.yaffle.xyz/visit.js" data-website-id="d05d561b-8369-404e-ab35-241feeadd4ed"></script>
+  </head>
+
+  <body style="background-color: #eadae9;">
+  
+    <nav class="navbar navbar-expand-lg site-navigation">
+      <div class="container">
+        <a class="navbar-brand" href="https://datasittersclub.github.io/site/">
+          <img src="/tldr/assets/images/logo.png" alt="nav-logo" />
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#sitenavbar"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="sitenavbar">
+          <ul class="navbar-nav ml-auto main-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/tldr/">tl;dr home</a>
+            </li>
+                        <li class="nav-item">
+                <a class="nav-link" href="/tldr/about/">about</a> 
+            </li>
+                            
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+
+  
+
+    <section class="site-project-single-section">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-12 project-single-main mx-auto">
+          <h1 class="booktitle">
+                Navigating the Terminal for the First Time
+              </h1>
+            <div class="site-project-single">
+            
+                                        <div class="site-project-single-image">
+                <img src="/tldr/assets/images/covers/tldr4.jpg" class="bookcover" alt="book cover" />
+              </div>
+              <div class="site-project-single-description">
+                <p>by Alyssa Virker</p>
+<p>September 21, 2026</p>
+<p><em>Our main series (DSC) is aimed at people who already know they want to use digital humanities tools. But what if you don’t know if digital humanities is right for you?</em></p>
+<p><em>Welcome to our spinoff series: Data-Sitters Little TL;DR (short for “too long; didn’t read”), where we offer key ideas and takeaways for people interested in digital humanities but not sure if it’s for them. We’re not here to convert, just to help — all in 1,500 words or less!</em></p>
+<p><em>A lot of digital humanities tutorials start with the Terminal. But for many digital humanists, a reference to the Terminal is the end of the line. It is weird, intimidating, a bridge too far. Brandon Walsh has <a href="https://walshbr.com/blog/effortless-digital-humanities/">some practical exercises</a> for getting to an &quot;effortless digital humanities&quot; relationship with the terminal. In this Data-Sitters Little Tl;DR, Alyssa Virker shares her journey through the terminal, with some wayfinding to help you along.</em></p>
+<h2>The Terminal</h2>
+<p>I’ve been lost in every terminal I’ve ever entered. LAX Terminal 2: lost. JFK Terminal 4: lost. Even the San Jose airport which is one straight line: lost. When it came to Apple’s Terminal application my experience was even worse. At least with the airports I knew I could find a sign, follow an arrow, and eventually I would be saved. In Apple’s Terminal, there were no directions. Dark, empty, space. One big black hole.</p>
+<p>I found my way to Terminal by deciding to dive head first into <a href="/tldr/books/tldr5/">topic modeling</a>. After reading the <a href="/site/dsc20/">DSC book on topic modeling</a>, I learned that step one was to download Java. I went to the Java site only to discover that there was no file to be found. Then I went where all desperate people go: ChatGPT. The LLM said I could download Java through Terminal. My next search: “What is Terminal?” The answer: “Text-based, command-line interface.” Next search: “What is command-line interface?” (Thank goodness I at least understood “text-based”)<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>.</p>
+<p>Even after eventually completing the process of downloading Java (Homebrew, Ant, and eventually Mallet), I still had no conception of what Terminal was or how to understand &quot;a command.&quot; I barely got through the downloading process by copying and pasting LLM code and praying for magic. It wasn't until I met with Quinn (far superior to ChatGPT in every way) that I understood what a command in Terminal actually is. I will attempt to communicate my completely novel, never heard of before, findings.</p>
+<p>To put things in terms I can understand --- Terminal is Finder's evil but genius twin. If you're on a Mac and using the Finder app, creating a new folder is a command. Moving one document from one folder to another is a command. These are examples of commands you enact visually when you use a dropdown menu or you drag a file with your mouse. In Terminal, you're essentially doing the same thing. You're giving the computer system commands, but instead of dragging and dropping a file, you're writing code that tells the computer to move the file from one folder to another. In comparison to Finder, Terminal lets you create more specified commands. It can automate changes on a large scale (i.e., across folders). In the case of Java, with the help of something called <a href="https://brew.sh/">Homebrew </a>(software that makes it easier to install other software using Terminal), Terminal was able to find the Java file online and download it to my computer.</p>
+<p><em>Programming Historian</em> has a great <a href="https://programminghistorian.org/en/lessons/intro-to-bash">intro on how to use basic commands on Terminal</a>, and since I am very much in the learning stage, I included a link rather than reiterating those points myself. What I will include are some tips for absolute beginners that are based on what confused me in my first encounter with Terminal.</p>
+<ol>
+<li>
+<p>I opened Terminal by opening Spotlight Search (the magnifying glass on the top right of a Mac) and typing Terminal. It opened up like any other application.</p>
+</li>
+<li>
+<p>When you type or copy and paste code into Terminal, nothing will happen until you press &quot;Enter&quot;. Only after you hit &quot;Enter&quot; will Terminal do magic and try to interpret the command.</p>
+</li>
+<li>
+<p>If the command is nonsensical, no problem. Literally, nothing will happen! Terminal just won't be able to read the code and no action will occur.</p>
+</li>
+<li>
+<p>The cursor is nonfunctional on Terminal. You have to use the up, down, left, right keys to move around.</p>
+</li>
+<li>
+<p>The <code>%</code> sign or the <code>$</code> after your name mean nothing. Maybe the sign is for fun, maybe it's aesthetic, maybe it actually does something. I don't know, but I have been assured you can just ignore it.</p>
+</li>
+</ol>
+<p>I’m at the stage now where if I can find prewritten code, for instance in Xanda’s powerpoint in the <a href="/site/dsc20/">DSC topic modeling book</a>, I can copy paste without tremendous horror. I’ve learned that a lot of what we’re doing is naming folders and moving things from folder to folder. Despite the code still looking like gibberish to me, I’m pretty sure a wrong copy paste won’t explode the world, and I think that’s progress. I hope this gives other newcomers the same smidgen of hope that we just  might make it.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>You can get a command line on Windows too, but that's its own adventure. Programming Historian has <a href="https://programminghistorian.org/en/lessons/intro-to-powershell">a tutorial</a>. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+              </div>
+              
+              
+              
+              
+              <div class="site-project-single-action d-flex justify-content-between">
+                
+                <a href="/tldr/books/tldr3/">
+                  <img class="rev" src="/tldr/assets/images/to-top.svg" alt="next project">
+                  <span class="link-area">
+                    <span data-text="Getting &#39;AI Ready&#39; with Textiles">
+                      Previous Project
+                    </span>
+                  </span>
+                </a>
+                
+                
+                <a href="/tldr/books/tldr5/">
+                  <span class="link-area">
+                    <span data-text="What&#39;s the Deal with Topic Modeling?">
+                      Next Project
+                    </span>
+                  </span>
+                  <img src="/tldr/assets/images/to-top.svg" alt="next project">
+                </a> 
+                 
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+
+  
+
+  
+    <!-- <script src="js/vendor.js"></script> -->
+    <script src="/tldr/assets/vendor/jQuery/jquery.min.js"></script>
+    <script src="/tldr/assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="/tldr/assets/js/script.js"></script>
+  </body>
+</html>
+
