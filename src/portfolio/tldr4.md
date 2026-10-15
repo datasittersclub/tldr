@@ -8,11 +8,11 @@ featureImg1: "/tldr/assets/images/covers/tldr4.jpg"
 bgcolor: "#eadae9"
 ---
 
+<img src='https://datasittersclub.github.io/site/build/doi_logo-0ab77b5b2be3ac00bb32cce42d6280d5.png' alt='DOI logo' height="20px" /> https://doi.org/10.25740/qb705ds5751
+
 by Alyssa Virker
 
 September 21, 2026
-
-<img src='https://datasittersclub.github.io/site/build/doi_logo-0ab77b5b2be3ac00bb32cce42d6280d5.png' alt='DOI logo' height="20px" /> https://doi.org/10.25740/qb705ds5751
 
 *Our main series (DSC) is aimed at people who already know they want to use digital humanities tools. But what if you don’t know if digital humanities is right for you?*
 

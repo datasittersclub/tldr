@@ -11,11 +11,11 @@ ogImgHeight: 630
 bgcolor: "#fff799"
 ---
 
+<img src='https://datasittersclub.github.io/site/build/doi_logo-0ab77b5b2be3ac00bb32cce42d6280d5.png' alt='DOI logo' height="20px" /> https://doi.org/10.25740/nw540fm5917
+
 by Roopika Risam, Katherine Bowers, Maria Sachiko Cecire, and Anouk Lang
 
 October 2, 2024
-
-<img src='https://datasittersclub.github.io/site/build/doi_logo-0ab77b5b2be3ac00bb32cce42d6280d5.png' alt='DOI logo' height="20px" /> https://doi.org/10.25740/nw540fm5917
 
 Our main series (DSC) is aimed at people who already know they want to use digital humanities tools. But what if you don’t know if digital humanities is right for you? 
 
