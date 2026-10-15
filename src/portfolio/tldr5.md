@@ -8,7 +8,7 @@ featureImg1: "/tldr/assets/images/covers/tldr5.jpg"
 bgcolor: "#f8cfcb"
 ---
 
-<img src='https://datasittersclub.github.io/site/build/doi_logo-0ab77b5b2be3ac00bb32cce42d6280d5.png' alt='DOI logo' height="20px" /> https://doi.org/10.25740/ns051nb7290 
+<img src='https://datasittersclub.github.io/site/build/doi_logo-0ab77b5b2be3ac00bb32cce42d6280d5.png' alt='DOI logo' height="20px" width="20px" /> https://doi.org/10.25740/ns051nb7290 
 
 by Alyssa Virker
 
