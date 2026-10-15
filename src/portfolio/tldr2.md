@@ -12,6 +12,8 @@ by Lee Skallerup Bessette & the Data-Sitters Club
 
 April 9, 2026
 
+<img src='/site/_static/images/doi_logo.png' alt='DOI logo' height="20px" /> https://doi.org/10.25740/mf258np0278
+
 *Our main series (DSC) is aimed at people who already know they want to use digital humanities tools. But what if you don’t know if digital humanities is right for you?*
 
 *Welcome to our spinoff series: Data-Sitters Little TL;DR (short for “too long; didn’t read”), where we offer key ideas and takeaways for people interested in digital humanities but not sure if it’s for them. We’re not here to convert, just to help — all in 1,500 words or less!*
