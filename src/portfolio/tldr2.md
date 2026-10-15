@@ -8,11 +8,11 @@ featureImg1: "/tldr/assets/images/covers/tldr2.jpg"
 bgcolor: "#ccffcc"
 ---
 
-<img src='/tldr/assets/images/doi_logo.png' alt='DOI logo' height="20px" width="20px" /> https://doi.org/10.25740/mf258np0278
-
 by Lee Skallerup Bessette & the Data-Sitters Club
 
 April 9, 2026
+
+<img src='/tldr/assets/images/doi_logo.png' alt='DOI logo' height="20px" width="20px" /> https://doi.org/10.25740/mf258np0278
 
 
 *Our main series (DSC) is aimed at people who already know they want to use digital humanities tools. But what if you don’t know if digital humanities is right for you?*

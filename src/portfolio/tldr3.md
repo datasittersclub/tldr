@@ -8,11 +8,11 @@ featureImg1: "/tldr/assets/images/covers/tldr3.jpg"
 bgcolor: "#c4e4f4"
 ---
 
-<img src='/tldr/assets/images/doi_logo.png' alt='DOI logo' height="20px" width="20px" /> https://doi.org/10.25740/th938bt7947 
-
 by Quinn Daedal
 
 April 27, 2026
+
+<img src='/tldr/assets/images/doi_logo.png' alt='DOI logo' height="20px" width="20px" /> https://doi.org/10.25740/th938bt7947 
 
 
 *Our main series (DSC) is aimed at people who already know they want to use digital humanities tools. But what if you don’t know if digital humanities is right for you?*
